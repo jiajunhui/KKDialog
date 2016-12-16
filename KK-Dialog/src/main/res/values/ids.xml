@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--layout root-->
+    <item name="kk_dialog_layout_root_view" type="id"/>
+    <!--dialog panel view-->
+    <item name="kk_dialog_layout_dialog_panel_view" type="id"/>
+    <!--dialog title text view-->
+    <item name="kk_dialog_layout_title_text_view" type="id"/>
+    <!--dialog content view , may be include TextView,ImageView,RecyclerView and so on .-->
+    <item name="kk_dialog_layout_message_content_view" type="id"/>
+    <!--dialog top view-->
+    <item name="kk_dialog_layout_top_view" type="id"/>
+    <!--dialog message text view-->
+    <item name="kk_dialog_layout_message_text_view" type="id"/>
+    <!--dialog positive button-->
+    <item name="kk_dialog_layout_positive_text_view" type="id"/>
+    <!--dialog negative button-->
+    <item name="kk_dialog_layout_negative_text_view" type="id"/>
+    <!--dialog neutral button-->
+    <item name="kk_dialog_layout_neutral_text_view" type="id"/>
+</resources>

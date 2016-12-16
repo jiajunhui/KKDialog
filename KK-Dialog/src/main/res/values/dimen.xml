@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dialog_layout_root_padding">25dp</dimen>
+    <dimen name="dialog_title_text_size">18sp</dimen>
+    <dimen name="dialog_title_text_padding_vertical">5dp</dimen>
+    <dimen name="dialog_title_text_padding_horizontal">6dp</dimen>
+    <dimen name="dialog_message_text_size">14sp</dimen>
+    <dimen name="dialog_positive_text_size">14sp</dimen>
+    <dimen name="dialog_negative_text_size">14sp</dimen>
+    <dimen name="dialog_neutral_text_size">14sp</dimen>
+</resources>

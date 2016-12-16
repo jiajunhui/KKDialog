@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FinalDialog</string>
+    <string name="dialog_neutral_text">忽略</string>
+    <string name="dialog_positive_text">确定</string>
+    <string name="dialog_negative_text">取消</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp">
+
+    <TextView
+        android:id="@+id/tv_center_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#c6e7f8"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="#444444"
+        android:text="CENTER_DIALOG"/>
+
+    <TextView
+        android:id="@+id/tv_top_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:background="#c6e7f8"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="#444444"
+        android:text="TOP_DIALOG"/>
+
+    <TextView
+        android:id="@+id/tv_bottom_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:background="#c6e7f8"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="#444444"
+        android:text="BOTTOM_DIALOG"/>
+
+</LinearLayout>

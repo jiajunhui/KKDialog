@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="kk_dialog_background_color">#44000000</color>
+    <color name="kk_dialog_panel_background_color">#FEFEFE</color>
+    <color name="kk_dialog_title_text_color">#000000</color>
+    <color name="kk_dialog_message_text_color">#444444</color>
+    <color name="kk_dialog_positive_text_color">#777777</color>
+    <color name="kk_dialog_negative_text_color">#777777</color>
+    <color name="kk_dialog_neutral_text_color">#777777</color>
+
+    <color name="kk_traditional_dialog_positive_text_color">#4094F9</color>
+    <color name="kk_traditional_dialog_negative_text_color">#4094F9</color>
+</resources>
