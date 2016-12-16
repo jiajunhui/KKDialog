@@ -36,8 +36,7 @@ public class BottomDialogActivity extends AppCompatActivity {
 
     private void showNormalDialog() {
         //and you can use traditional style dialog.
-        TraditionalStyleDialog dialog = new TraditionalStyleDialog(this, KKDialog.DIALOG_TYPE_LOCATION_BOTTOM);
-        dialog.setMargin(0,0,0,0);
+        TraditionalStyleDialog dialog = new TraditionalStyleDialog(this);
         dialog.setShowAnimType(EffectFactory.SlideBottom.getAnimator());
         dialog.setTitle("LocationBottom")
                 .setMessage("This is a location bottom dialog")
