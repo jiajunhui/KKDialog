@@ -1,5 +1,6 @@
 package com.xapp.jiajunhui.dialog;
 
+import android.app.Activity;
 import android.content.DialogInterface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -49,7 +50,7 @@ import com.xapp.jiajunhui.dialog.adapter.AnimatorAdapter;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CenterDialogActivity extends AppCompatActivity implements AnimatorAdapter.OnItemClickListener {
+public class CenterDialogActivity extends Activity implements AnimatorAdapter.OnItemClickListener {
 
     private List<Class> effects = new ArrayList<>();
     private RecyclerView mRecycler;
@@ -91,7 +92,7 @@ public class CenterDialogActivity extends AppCompatActivity implements AnimatorA
         dialog.setCancelable(false);
         //set dialog animation type
         dialog.setShowAnimType(animator);
-        dialog.setTitle("")
+        dialog.setTitle("Title")
                 .setMessage("this animation effect is " + animator.getClass().getSimpleName())
                 .setPositiveText("确定")
                 .setNegativeText("取消")

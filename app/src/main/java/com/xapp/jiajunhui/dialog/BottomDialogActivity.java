@@ -1,7 +1,7 @@
 package com.xapp.jiajunhui.dialog;
 
+import android.app.Activity;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import com.kk.taurus.animeffect.EffectFactory;
 import com.kk.taurus.finaldialog.base.KKDialog;
@@ -9,7 +9,7 @@ import com.kk.taurus.finaldialog.base.OnDialogCallBack;
 import com.kk.taurus.finaldialog.dialog.KKStyleDialog;
 import com.kk.taurus.finaldialog.dialog.TraditionalStyleDialog;
 
-public class BottomDialogActivity extends AppCompatActivity {
+public class BottomDialogActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

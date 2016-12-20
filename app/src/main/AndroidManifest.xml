@@ -21,17 +21,14 @@
 
         <activity
             android:name=".CenterDialogActivity"
-            android:screenOrientation="portrait"
             />
 
         <activity
             android:name=".TopDialogActivity"
-            android:screenOrientation="portrait"
             />
 
         <activity
             android:name=".BottomDialogActivity"
-            android:screenOrientation="portrait"
             />
     </application>
 

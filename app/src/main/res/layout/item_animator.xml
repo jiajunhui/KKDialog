@@ -11,6 +11,10 @@
             android:id="@+id/tv_animator"
             android:layout_width="match_parent"
             android:layout_height="50dp"
+            android:paddingLeft="10dp"
+            android:focusable="true"
+            android:clickable="true"
+            android:background="@drawable/selector_text_button"
             android:textSize="16sp"
             android:textColor="#333333"
             android:gravity="center_vertical"/>

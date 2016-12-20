@@ -16,9 +16,14 @@
 
 package com.kk.taurus.finaldialog.base;
 
+import android.app.Activity;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.pm.ActivityInfo;
+import android.util.Log;
+
+import com.kk.taurus.finaldialog.utils.ScreenUtils;
 
 /**
  * Created by Taurus on 2016/12/7.
@@ -33,8 +38,22 @@ public abstract class AbsDialog implements IDialog,DialogInterface.OnShowListene
     private DialogInterface.OnDismissListener mOnDismissListener;
     protected KKDialog.OnDialogListener mOnDialogListener;
 
+    protected boolean isLandscape;
+    protected int mScreenW,mScreenH;
+
     public AbsDialog(Context context){
         this.mContext = context;
+        initScreenInfo(context);
+        if(context instanceof Activity){
+            isLandscape = ScreenUtils.getScreenOrientation(context)== ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE;
+        }
+    }
+
+    private void initScreenInfo(Context context){
+        int[] screen = ScreenUtils.getScreenWH(context);
+        mScreenW = screen[0];
+        mScreenH = screen[1];
+        Log.d("_AbsDialog","screenW = " + mScreenW + " screenH = " + mScreenH);
     }
 
     protected void onDialogInit(){

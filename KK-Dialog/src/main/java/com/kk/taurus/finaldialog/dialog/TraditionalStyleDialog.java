@@ -26,7 +26,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-
 import com.kk.taurus.animeffect.EffectFactory;
 import com.kk.taurus.animeffect.base.BaseAnimator;
 import com.kk.taurus.finaldialog.R;
@@ -34,6 +33,7 @@ import com.kk.taurus.finaldialog.base.AbsDialog;
 import com.kk.taurus.finaldialog.base.BaseDialog;
 import com.kk.taurus.finaldialog.base.IDialog;
 import com.kk.taurus.finaldialog.base.KKDialog;
+import com.kk.taurus.finaldialog.config.DialogConfig;
 
 /**
  * Created by Taurus on 2016/12/7.
@@ -68,7 +68,18 @@ public class TraditionalStyleDialog extends AbsDialog implements KKDialog{
         onDialogInit();
         setupDefaultContentView();
         findDialogViewById();
+        adjustmentWH();
         attachListener();
+    }
+
+    private void adjustmentWH() {
+        int horizonMargin;
+        if(isLandscape){
+            horizonMargin = (mScreenW - ((int)(mScreenW* DialogConfig.getDialogWidthProportionOnLandScape())))/2;
+        }else{
+            horizonMargin = (mScreenW - ((int)(mScreenW* DialogConfig.getDialogWidthProportionOnPortrait())))/2;
+        }
+        setMargin(horizonMargin,0,horizonMargin,0);
     }
 
     private void findDialogViewById() {

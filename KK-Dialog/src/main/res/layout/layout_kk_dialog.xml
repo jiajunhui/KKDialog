@@ -7,8 +7,6 @@
     <RelativeLayout
         android:id="@id/kk_dialog_layout_dialog_panel_view"
         android:layout_centerInParent="true"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
         android:background="@color/kk_dialog_panel_background_color"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">

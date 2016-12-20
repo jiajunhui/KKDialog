@@ -29,6 +29,7 @@ import android.view.WindowManager;
 
 public class BaseDialog extends Dialog {
 
+    private final String TAG = "_BaseDialog";
     /**
      * the dialog location type.
      */

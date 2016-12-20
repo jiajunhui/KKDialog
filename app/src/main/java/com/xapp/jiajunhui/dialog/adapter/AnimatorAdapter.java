@@ -38,7 +38,7 @@ public class AnimatorAdapter extends RecyclerView.Adapter<AnimatorAdapter.ItemHo
     @Override
     public void onBindViewHolder(final ItemHolder itemHolder, final int i) {
         itemHolder.mTvAnimator.setText(mList.get(i).getSimpleName());
-        itemHolder.itemView.setOnClickListener(new View.OnClickListener() {
+        itemHolder.mTvAnimator.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if(onItemClickListener!=null){
