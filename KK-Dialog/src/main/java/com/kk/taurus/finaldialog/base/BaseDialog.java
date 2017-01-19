@@ -76,6 +76,7 @@ public class BaseDialog extends Dialog {
         }
         //set window background dim amount.
         getWindow().setDimAmount(mDimAmount);
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
         getWindow().setGravity(gravity);
         params.width = ViewGroup.LayoutParams.MATCH_PARENT;
         getWindow().setAttributes(params);

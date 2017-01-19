@@ -16,7 +16,12 @@
         <item name="android:backgroundDimEnabled">true</item>
     </style>
 
-    <style name="panel_margin">
+    <style name="title_panel_margin">
+        <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:layout_marginRight">25dp</item>
+    </style>
+
+    <style name="message_panel_margin">
         <item name="android:layout_marginLeft">25dp</item>
         <item name="android:layout_marginRight">25dp</item>
     </style>

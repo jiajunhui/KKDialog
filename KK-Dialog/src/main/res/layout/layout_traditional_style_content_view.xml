@@ -8,8 +8,8 @@
         android:id="@id/kk_dialog_layout_top_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        style="@style/panel_margin">
+        android:layout_marginTop="15dp"
+        style="@style/title_panel_margin">
         <TextView
             android:id="@id/kk_dialog_layout_title_text_view"
             android:layout_width="match_parent"
@@ -26,7 +26,7 @@
         android:minHeight="40dp"
         android:layout_marginTop="15dp"
         android:layout_marginBottom="15dp"
-        style="@style/panel_margin"
+        style="@style/message_panel_margin"
         >
         <TextView
             android:id="@id/kk_dialog_layout_message_text_view"
@@ -68,7 +68,6 @@
                 android:clickable="true"
                 android:gravity="center"
                 style="@style/text_padding"
-                android:layout_marginLeft="15dp"
                 android:background="@drawable/selector_dialog_button"
                 android:textSize="@dimen/dialog_positive_text_size"
                 android:textColor="@color/kk_traditional_dialog_positive_text_color"

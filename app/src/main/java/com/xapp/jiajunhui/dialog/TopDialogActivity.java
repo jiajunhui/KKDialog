@@ -1,8 +1,8 @@
 package com.xapp.jiajunhui.dialog;
 
-import android.app.Activity;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
@@ -12,7 +12,7 @@ import com.kk.taurus.finaldialog.base.KKDialog;
 import com.kk.taurus.finaldialog.base.OnDialogCallBack;
 import com.kk.taurus.finaldialog.dialog.KKStyleDialog;
 
-public class TopDialogActivity extends Activity {
+public class TopDialogActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

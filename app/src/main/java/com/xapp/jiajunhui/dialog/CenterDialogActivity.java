@@ -1,6 +1,5 @@
 package com.xapp.jiajunhui.dialog;
 
-import android.app.Activity;
 import android.content.DialogInterface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -50,7 +49,7 @@ import com.xapp.jiajunhui.dialog.adapter.AnimatorAdapter;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CenterDialogActivity extends Activity implements AnimatorAdapter.OnItemClickListener {
+public class CenterDialogActivity extends AppCompatActivity implements AnimatorAdapter.OnItemClickListener {
 
     private List<Class> effects = new ArrayList<>();
     private RecyclerView mRecycler;
