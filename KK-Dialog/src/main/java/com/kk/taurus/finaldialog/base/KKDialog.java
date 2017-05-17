@@ -109,9 +109,9 @@ public interface KKDialog extends DialogInterface{
     void setMargin(int left, int top, int right, int bottom);
 
     interface OnDialogListener{
-        void onPositiveClick(IDialog dialog);
-        void onNegativeClick(IDialog dialog);
-        void onNeutralClick(IDialog dialog);
+        void onPositiveClick(DialogInterface dialog);
+        void onNegativeClick(DialogInterface dialog);
+        void onNeutralClick(DialogInterface dialog);
     }
 
 }

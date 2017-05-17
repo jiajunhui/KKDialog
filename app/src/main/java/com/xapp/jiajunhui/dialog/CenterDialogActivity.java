@@ -113,19 +113,19 @@ public class CenterDialogActivity extends AppCompatActivity implements AnimatorA
 
         dialog.setOnDialogListener(new OnDialogCallBack(){
             @Override
-            public void onPositiveClick(IDialog dialog) {
+            public void onPositiveClick(DialogInterface dialog) {
                 super.onPositiveClick(dialog);
                 Toast.makeText(CenterDialogActivity.this, "OK", Toast.LENGTH_SHORT).show();
             }
 
             @Override
-            public void onNegativeClick(IDialog dialog) {
+            public void onNegativeClick(DialogInterface dialog) {
                 super.onNegativeClick(dialog);
                 Toast.makeText(CenterDialogActivity.this, "CANCEL", Toast.LENGTH_SHORT).show();
             }
 
             @Override
-            public void onNeutralClick(IDialog dialog) {
+            public void onNeutralClick(DialogInterface dialog) {
                 super.onNeutralClick(dialog);
                 Toast.makeText(CenterDialogActivity.this, "NEUTRAL", Toast.LENGTH_SHORT).show();
             }

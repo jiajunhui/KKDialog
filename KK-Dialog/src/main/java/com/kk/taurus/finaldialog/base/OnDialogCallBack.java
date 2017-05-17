@@ -16,6 +16,8 @@
 
 package com.kk.taurus.finaldialog.base;
 
+import android.content.DialogInterface;
+
 /**
  * Created by Taurus on 2016/12/13.
  */
@@ -23,21 +25,21 @@ package com.kk.taurus.finaldialog.base;
 public class OnDialogCallBack implements KKDialog.OnDialogListener {
 
     @Override
-    public void onPositiveClick(IDialog dialog) {
+    public void onPositiveClick(DialogInterface dialog) {
         cancelDialog(dialog);
     }
 
     @Override
-    public void onNegativeClick(IDialog dialog) {
+    public void onNegativeClick(DialogInterface dialog) {
         cancelDialog(dialog);
     }
 
     @Override
-    public void onNeutralClick(IDialog dialog) {
+    public void onNeutralClick(DialogInterface dialog) {
         cancelDialog(dialog);
     }
 
-    protected void cancelDialog(IDialog dialog){
+    protected void cancelDialog(DialogInterface dialog){
         if(dialog!=null){
             dialog.cancel();
         }
